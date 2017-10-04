@@ -1,11 +1,11 @@
 Lifepo4weredPyWrapper
 =====================
 
-Wrapper to enable lifepo4wered C++ library using Python.
+Wrapper to enable lifepo4wered SO library using Python.
 reference: http://lifepo4wered.com/lifepo4wered-pi3.html
 
-Using the Raspbery Pi zero in many project, I found this battery.
-To help my none C++ colleague, I design this wrapper. 
+Using the Raspbery Pi zero in many projects, I found this product.
+To help my python colleagues, I design this wrapper. 
 
 You can find the documentation
 http://lifepo4wered.com/files/LiFePO4wered-Pi3-Product-Brief.pdf.
@@ -21,6 +21,9 @@ If you want to use this wrapper, you need:
 2- download and build the driver (http://lifepo4wered.com/lifepo4wered-pi3.html)
 3- download this wrapper
 4- In lifepo4weredSO.py file change the path of the liblifepo4wered.so where you build it.
+
+To dowload and install the LiFePO4wered-Pi drivers and CLI applications,
+please read https://github.com/xorbit/LiFePO4wered-Pi.
 
 To download or clone this wrapper, please read https://help.github.com/articles/cloning-a-repository/
 
