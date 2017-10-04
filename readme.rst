@@ -1,13 +1,13 @@
 Lifepo4weredPyWrapper
 =====================
 
-Wrapper to enable lifepo4wered SO library using Python.
+A wrapper to enable lifepo4wered SO library to Python.
 reference: http://lifepo4wered.com/lifepo4wered-pi3.html
 
-Using the Raspbery Pi zero in many projects, I found this product.
-To help my python colleagues, I design this wrapper. 
+Using the Raspbery Pi zero in many projects, I found this product
+very usefull. I adopted so to help my python colleagues, I design this. 
 
-You can find the documentation
+You can find the documentation of the lifepo4wered product:
 http://lifepo4wered.com/files/LiFePO4wered-Pi3-Product-Brief.pdf.
 
 Status

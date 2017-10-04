@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Wrapper to enable lifepo4wered C++ library using Python.
+Wrapper to enable lifepo4wered library to Python.
 reference: http://lifepo4wered.com/lifepo4wered-pi3.html
 """
 
