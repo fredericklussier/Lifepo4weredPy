@@ -36,7 +36,7 @@ Usage
 
 .. code-block:: python
 
-    from Lifepo4weredPyWrapper import lifepo4weredEnum, read
+    import lifepo4weredPy
     baterryVoltage = read(lifepo4weredEnum.VBAT)
 
 Detail
@@ -117,8 +117,8 @@ More important, this function mention if the program is allowed to write the inf
         do()
 
 
-Enum lifepo4wered
-~~~~~~~~~~~~~~~~~
+lifepo4wered variables
+~~~~~~~~~~~~~~~~~~~~~~
 list of elements accessible.
 please read section Low level I2C register specification
  of http://lifepo4wered.com/files/LiFePO4wered-Pi3-Product-Brief.pdf
@@ -151,8 +151,8 @@ please read section Low level I2C register specification
         PI_RUNNING = 22
         CFG_WRITE = 23
 
-Defines for lifepo4wered
-~~~~~~~~~~~~~~~~~~~~~~~~
+lifepo4wered defines
+~~~~~~~~~~~~~~~~~~~~
 list of defines used in lifepo4wered operations.
 please read section Low level I2C register specification
  of http://lifepo4wered.com/files/LiFePO4wered-Pi3-Product-Brief.pdf
