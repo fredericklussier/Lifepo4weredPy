@@ -9,11 +9,13 @@ reference: lifepo4wered-data.h
 ACCESS_READ = 0x01
 ACCESS_WRITE = 0x02
 
-# Touch states and masks
+# Touch states
 TOUCH_INACTIVE = 0x00
 TOUCH_START = 0x03
 TOUCH_STOP = 0x0C
 TOUCH_HELD = 0x0F
+
+# Touch masks
 TOUCH_ACTIVE_MASK = 0x03
 TOUCH_MASK  = 0x0F
 

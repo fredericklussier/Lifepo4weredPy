@@ -8,7 +8,7 @@ reference: lifepo4wered-data.h
 from enum import Enum, unique
 
 @unique
-class lifepo4weredEnum(Enum):
+class variablesEnum(Enum):
     I2C_REG_VER = 0
     I2C_ADDRESS = 1
     LED_STATE = 2

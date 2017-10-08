@@ -5,9 +5,9 @@
 reference: lifepo4wered-data.h
 """
 
-import lifepo4weredDefines
-from lifepo4weredEnum import lifepo4weredEnum
-import lifepo4weredSO
+from . import defines
+from .variablesEnum import variablesEnum
+from . import lifepo4weredSO
 
 def canRead(what):
     """
@@ -19,10 +19,10 @@ def canRead(what):
     :rtype: bool
     :raises ValueError: if parameter value is not a member of Lifepo4weredEnum.
     """
-    if what not in lifepo4weredEnum:
+    if what not in variablesEnum:
         raise ValueError('Use a lifepo4wered enum element as parameter.')
 
-    return lifepo4weredSO.access_lifepo4wered(what.value, lifepo4weredDefines.ACCESS_READ)
+    return lifepo4weredSO.access_lifepo4wered(what.value, defines.ACCESS_READ)
 
 def canWrite(what):
     """
@@ -34,10 +34,10 @@ def canWrite(what):
     :rtype: bool
     :raises ValueError: if parameter value is not a member of Lifepo4weredEnum
     """
-    if what not in lifepo4weredEnum:
+    if what not in variablesEnum:
         raise ValueError('Use a lifepo4wered enum element as parameter.')
 
-    return lifepo4weredSO.access_lifepo4wered(what.value, lifepo4weredDefines.ACCESS_WRITE)
+    return lifepo4weredSO.access_lifepo4wered(what.value, defines.ACCESS_WRITE)
 
 def read(what):
     """
@@ -49,7 +49,7 @@ def read(what):
     :rtype: int
     :raises ValueError: if parameter value is not a member of Lifepo4weredEnum
     """
-    if what not in lifepo4weredEnum:
+    if what not in variablesEnum:
         raise ValueError('Use a lifepo4wered enum element as read parameter.')
     
     if canRead(what):
@@ -69,7 +69,7 @@ def write(what, value):
     :raises ValueError: if what parameter is not a member of Lifepo4weredEnum
     :raises ValueError: if value is not an int type
     """
-    if what not in lifepo4weredEnum:
+    if what not in variablesEnum:
         raise ValueError('Use a lifepo4wered enum element as write element.')
     
     if isinstance(value, int) is False:
