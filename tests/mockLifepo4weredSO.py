@@ -3,8 +3,8 @@
 
 """
 This simulate the lifepo4wered SO for testing porpose. 
-It allow performing unit tests event if lifepo4wered module
-dore note exist.
+It allow performing unit tests event if lifepo4wered device
+is not plugged.
 """
 
 def access_lifepo4wered(eLiFePO4weredVar, access_mask):
