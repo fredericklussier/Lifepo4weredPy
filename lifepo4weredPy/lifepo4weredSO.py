@@ -9,9 +9,13 @@ import ctypes
 import os.path
 
 try:
-    lib = ctypes.CDLL(
-        '/home/pi/Projects/LifePO4wered-Pi/build/SO/liblifepo4wered.so')
+    lib = ctypes.CDLL('liblifepo4wered.so')
+    # this file should be found in the runtime paths.
+    #  At least, use the LD_LIBRARY_PATH export path to set the path of the so file.
+    #  echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/your/custom/path/" >> ~/.bashrc
 except:
+    #For testing purpose, otherwise the import mechanism
+    # return an error. Anyway it is mocked during test.
     lib = None
 
 def access_lifepo4wered(eLiFePO4weredVar, access_mask):

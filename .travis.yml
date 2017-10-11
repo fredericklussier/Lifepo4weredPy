@@ -6,6 +6,6 @@ python:
 install:
   - pip install -r devRequirements.txt
 script:
-  - coverage run -m unittest tests/testLifepo4wered.py
+  - coverage run -m unittest discover tests/
 after_success:
   - coveralls

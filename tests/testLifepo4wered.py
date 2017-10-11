@@ -11,6 +11,9 @@ from tests import mockLifepo4weredSO
 import lifepo4weredPy
 
 class Lifepo4weredPyWrapperTest(unittest.TestCase):
+    
+
+
     """
     canRead
     """
