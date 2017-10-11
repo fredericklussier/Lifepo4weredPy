@@ -23,16 +23,16 @@ In development.
 Installation
 ------------
 If you want to use this wrapper, you need:
-1- a lifepo4wered-pi3 as well as a Raspeberry Pi ;-)
-2- download and build the driver (http://lifepo4wered.com/lifepo4wered-pi3.html)
-3- Set the LD_LIBRARY_PATH in your environment (otherwise this wrapper will not find the builded file of lifepo4wered)
+1. a lifepo4wered-pi3 as well as a Raspeberry Pi ;-)
+2. download and build the driver (http://lifepo4wered.com/lifepo4wered-pi3.html)
+3. Set the LD_LIBRARY_PATH in your environment (otherwise this wrapper will not find the builded file of lifepo4wered)
     the best way to do this is:
     
 .. code-block:: batch
 
     echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/your/custom/path/" >> ~/.bashrc
 
-4- download this wrapper 
+4. download this wrapper 
 
 To dowload and install the LiFePO4wered-Pi drivers and CLI applications,
 please read https://github.com/xorbit/LiFePO4wered-Pi.
