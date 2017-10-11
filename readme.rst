@@ -26,9 +26,9 @@ In development.
 Installation
 ------------
 If you want to use this wrapper, you need:
-1. a lifepo4wered-pi3 as well as a Raspeberry Pi ;-)
-2. the lifepo4wered driver (http://lifepo4wered.com/lifepo4wered-pi3.html)
-3. An path environment variable that give access to the lifepo4wered driver
+* a lifepo4wered-pi3 as well as a Raspeberry Pi ;-)
+* the lifepo4wered driver (http://lifepo4wered.com/lifepo4wered-pi3.html)
+* a variable of environment path that return access to the lifepo4wered driver
 
     the best way is to set the LD_LIBRARY_PATH:
     
