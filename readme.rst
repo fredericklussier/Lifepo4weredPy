@@ -21,6 +21,7 @@ If you want to use this wrapper, you need:
 2- download and build the driver (http://lifepo4wered.com/lifepo4wered-pi3.html)
 3- Set the LD_LIBRARY_PATH in your environment (otherwise this wrapper will not find the builded file of lifepo4wered)
     the best way to do this is:
+    
 .. code-block:: batch
 
     echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/your/custom/path/" >> ~/.bashrc
@@ -53,9 +54,9 @@ To read data from the lifepo4wered.
 
 .. code-block:: python
 
-    read(what)
+    read(variable)
 
-* what (lifepo4weredEnum): The information to read.
+* variable (lifepo4weredEnum): The information to read.
 * return (int): the information.
 * raise (ValueError): if information is not a lifepo4weredEnum member.
 * raise (RuntimeError): if the information is not read access.
@@ -71,9 +72,9 @@ To write data to the lifepo4wered.
 
 .. code-block:: python
 
-    write(what, value)
+    write(variable, value)
 
-* what (lifepo4weredEnum): The information name to write.
+* variable (lifepo4weredEnum): The information name to write.
 * value (int): the value to write.
 * return (int): the written value.
 * raise (ValueError): if information is not a lifepo4weredEnum member.
@@ -91,9 +92,9 @@ Mention if the program is allowed to read the information.
 
 .. code-block:: python
 
-    canRead(what)
+    canRead(variable)
 
-* what (lifepo4weredEnum): The information name.
+* variable (lifepo4weredEnum): The information name.
 * return (bool): True if you can read, otherwise False.
 * raise (ValueError): if information is not a lifepo4weredEnum member.
 
@@ -109,9 +110,9 @@ More important, this function mention if the program is allowed to write the inf
 
 .. code-block:: python
 
-    canWrite(what)
+    canWrite(variable)
 
-* what (lifepo4weredEnum): The information name.
+* variable (lifepo4weredEnum): The information name.
 * return (bool): True if you can write, otherwise False.
 * raise (ValueError): if information is not a lifepo4weredEnum member.
 
