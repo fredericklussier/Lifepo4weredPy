@@ -43,7 +43,7 @@ Usage
 .. code-block:: python
 
     import lifepo4weredPy
-    baterryVoltage = read(lifepo4weredEnum.VBAT)
+    baterryVoltage = lifepo4weredPy.read(lifepo4weredPy.variablesEnum.VBAT)
 
 Detail
 ------
@@ -63,8 +63,8 @@ To read data from the lifepo4wered.
 
 .. code-block:: python
 
-    from Lifepo4weredPyWrapper import lifepo4weredEnum, read
-    baterryVoltage = read(lifepo4weredEnum.VBAT)
+    import lifepo4weredPy
+    baterryVoltage = lifepo4weredPy.read(lifepo4weredPy.variablesEnum.VBAT)
 
 Write
 ~~~~~
@@ -83,8 +83,9 @@ To write data to the lifepo4wered.
 
 .. code-block:: python
 
-    from Lifepo4weredPyWrapper import lifepo4weredEnum, read
-    baterryVoltage = write(lifepo4weredEnum.LED_STATE, 2) # LED pulsing
+    import lifepo4weredPy
+    baterryVoltage = lifepo4weredPy.write(
+        lifepo4weredPy.variablesEnum.LED_STATE, lifepo4weredPy.LED_STATE_PULSING)
 
 canRead
 ~~~~~~~
@@ -100,8 +101,8 @@ Mention if the program is allowed to read the information.
 
 .. code-block:: python
 
-    from Lifepo4weredPyWrapper import lifepo4weredEnum, read
-    if canRead(lifepo4weredEnum.LED_STATE):
+    import lifepo4weredPy
+    if lifepo4weredPy.canRead(lifepo4weredPy.variablesEnum.LED_STATE):
         do()
 
 canWrite
@@ -118,8 +119,8 @@ More important, this function mention if the program is allowed to write the inf
 
 .. code-block:: python
 
-    from Lifepo4weredPyWrapper import lifepo4weredEnum, read
-    if canWrite(lifepo4weredEnum.LED_STATE):
+    import lifepo4weredPy
+    if import lifepo4weredPy.canWrite(lifepo4weredPy.variablesEnum.LED_STATE):
         do()
 
 
@@ -131,7 +132,7 @@ please read section Low level I2C register specification
 
 .. code-block:: python
 
-    class lifepo4weredEnum(Enum):
+    class variablesEnum(Enum):
         I2C_REG_VER = 0
         I2C_ADDRESS = 1
         LED_STATE = 2
