@@ -4,8 +4,9 @@ Lifepo4weredPyWrapper
 .. image:: https://travis-ci.org/fredericklussier/Lifepo4weredPyWrapper.svg?branch=master
     :target: https://travis-ci.org/fredericklussier/Lifepo4weredPyWrapper
 
-.. image:: https://coveralls.io/repos/github/fredericklussier/TinyPeriodicTask/badge.svg?branch=master
-    :target: https://coveralls.io/github/fredericklussier/TinyPeriodicTask?branch=master
+.. image:: https://coveralls.io/repos/github/fredericklussier/Lifepo4weredPyWrapper/badge.svg?branch=master
+:target: https://coveralls.io/github/fredericklussier/Lifepo4weredPyWrapper?branch=master
+
 
 A wrapper to enable lifepo4wered SO library to Python.
 reference: http://lifepo4wered.com/lifepo4wered-pi3.html
