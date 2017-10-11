@@ -5,7 +5,7 @@ Lifepo4weredPyWrapper
     :target: https://travis-ci.org/fredericklussier/Lifepo4weredPyWrapper
 
 .. image:: https://coveralls.io/repos/github/fredericklussier/Lifepo4weredPyWrapper/badge.svg?branch=master
-:target: https://coveralls.io/github/fredericklussier/Lifepo4weredPyWrapper?branch=master
+    :target: https://coveralls.io/github/fredericklussier/Lifepo4weredPyWrapper?branch=master
 
 
 A wrapper to enable lifepo4wered SO library to Python.
