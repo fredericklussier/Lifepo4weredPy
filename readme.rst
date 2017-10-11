@@ -1,4 +1,4 @@
-Lifepo4weredPyWrapper
+lifepo4weredPy
 =====================
 
 .. image:: https://travis-ci.org/fredericklussier/Lifepo4weredPyWrapper.svg?branch=master
