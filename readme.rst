@@ -7,6 +7,8 @@ lifepo4weredPy
 .. image:: https://coveralls.io/repos/github/fredericklussier/Lifepo4weredPyWrapper/badge.svg?branch=master
     :target: https://coveralls.io/github/fredericklussier/Lifepo4weredPyWrapper?branch=master
 
+.. image:: https://badge.fury.io/py/lifepo4weredPy.svg
+    :target: https://badge.fury.io/py/lifepo4weredPy
 
 A wrapper to enable lifepo4wered SO library to Python.
 reference: http://lifepo4wered.com/lifepo4wered-pi3.html
@@ -25,24 +27,25 @@ Installation
 ------------
 If you want to use this wrapper, you need:
 1. a lifepo4wered-pi3 as well as a Raspeberry Pi ;-)
-2. download and build the driver (http://lifepo4wered.com/lifepo4wered-pi3.html)
-3. Set the LD_LIBRARY_PATH in your environment (otherwise this wrapper will not find the builded file of lifepo4wered)
-    the best way to do this is:
+2. the lifepo4wered driver (http://lifepo4wered.com/lifepo4wered-pi3.html)
+3. An path environment variable that give access to the lifepo4wered driver
+
+    the best way is to set the LD_LIBRARY_PATH:
     
 .. code-block:: batch
 
     echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/your/custom/path/" >> ~/.bashrc
 
-4. download this wrapper 
+So to install this wrapper, use:
+
+.. code-block:: batch
+
+    pip install lifepo4weredPy
+
 
 To dowload and install the LiFePO4wered-Pi drivers and CLI applications,
 please read https://github.com/xorbit/LiFePO4wered-Pi.
 
-To download or clone this wrapper, please read https://help.github.com/articles/cloning-a-repository/
-
-.. code-block:: batch
-
-    $ git clone https://github.com/fredericklussier/ObservablePy.git
 
 Usage
 -----
