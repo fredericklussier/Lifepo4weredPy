@@ -1,8 +1,8 @@
 Lifepo4weredPyWrapper
 =====================
 
-.. image:: https://travis-ci.org/fredericklussier/TinyPeriodicTask.svg?branch=master
-    :target: https://travis-ci.org/fredericklussier/TinyPeriodicTask
+.. image:: https://travis-ci.org/fredericklussier/Lifepo4weredPyWrapper.svg?branch=master
+    :target: https://travis-ci.org/fredericklussier/Lifepo4weredPyWrapper
 
 .. image:: https://coveralls.io/repos/github/fredericklussier/TinyPeriodicTask/badge.svg?branch=master
     :target: https://coveralls.io/github/fredericklussier/TinyPeriodicTask?branch=master
