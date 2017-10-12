@@ -1,11 +1,11 @@
 lifepo4weredPy
 =====================
 
-.. image:: https://travis-ci.org/fredericklussier/Lifepo4weredPyWrapper.svg?branch=master
-    :target: https://travis-ci.org/fredericklussier/Lifepo4weredPyWrapper
+.. image:: https://travis-ci.org/fredericklussier/Lifepo4weredPy.svg?branch=master
+    :target: https://travis-ci.org/fredericklussier/Lifepo4weredPy
 
-.. image:: https://coveralls.io/repos/github/fredericklussier/Lifepo4weredPyWrapper/badge.svg?branch=master
-    :target: https://coveralls.io/github/fredericklussier/Lifepo4weredPyWrapper?branch=master
+.. image:: https://coveralls.io/repos/github/fredericklussier/Lifepo4weredPy/badge.svg?branch=master
+    :target: https://coveralls.io/github/fredericklussier/Lifepo4weredPy?branch=master
 
 .. image:: https://badge.fury.io/py/lifepo4weredPy.svg
     :target: https://badge.fury.io/py/lifepo4weredPy
