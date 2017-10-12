@@ -16,7 +16,7 @@ from setuptools import setup, find_packages
 
 
 NAME = 'lifepo4weredPy'
-GITHUB_NAME = 'Lifepo4weredPyWrapper'
+GITHUB_NAME = 'Lifepo4weredPy'
 VERSION = '0.1.0'
 DOWNLOAD_URL = (
     'https://github.com/fredericklussier/' + GITHUB_NAME + '/' + VERSION
@@ -35,7 +35,7 @@ setup(
     name=NAME,
     packages=[NAME],
     version=VERSION,
-    description='Enable observable behavior.',
+    description='A wrapper to enable lifepo4wered SO library to Python.',
     long_description=read_file('ReadMe.rst'),
     license='MIT',
     author='Frederick Lussier',
